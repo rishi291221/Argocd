@@ -10,7 +10,7 @@ spec:
   description: Argo CD project for cloud-prakhar/k8s-argo
 
   sourceRepos:
-    - https://github.com/cloud-prakhar/k8s-argo.git
+    - https://github.com/rishi291221/Argocd.git
 
   destinations:
     - namespace: k8s-argo-demo
