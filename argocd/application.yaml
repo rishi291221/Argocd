@@ -7,16 +7,16 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 
 spec:
-  project: k8s-argo-project
+  project: Argocd
 
   source:
-    repoURL: https://github.com/cloud-prakhar/k8s-argo.git
+    repoURL: https://github.com/rishi291221/Argocd.git
     targetRevision: main
     path: apps/nginx
 
   destination:
     server: https://kubernetes.default.svc
-    namespace: k8s-argo-demo
+    namespace: Argocd
 
   syncPolicy:
     automated:
